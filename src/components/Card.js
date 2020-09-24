@@ -5,24 +5,17 @@ import Description from './Description'
 import styled from 'styled-components';
 
 const CardContainer = styled.div`
-border: solid 2px black;
+border: solid 4px black;
 background-color: #ffe8ab;
-box-shadow: 2px 2px lightgrey;
+box-shadow: 5px 5px grey;
 border-radius: 10px;
-padding: 20px;
-margin-top: 100px;
-width: 80%;
-margin: 0 auto;
-margin-bottom: 25px;
+padding: 10px;
+width: 70%;
+margin: 10px auto;
 `
 
 const Card = ({props}) => {
-    const {
-        date,
-        explanation,
-        title,
-        url,
-      } = props;
+    const {date, explanation, title, url} = props;
 
     return (
         <CardContainer>

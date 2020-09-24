@@ -1,11 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Img = styled.img`
+    width: 70%;
+    border-radius: 10px;
+`
 
 const Image = (props) => {
     const { url } = props
     return (
-        <div>
-            <img src={ url } alt={'Nasa Photo of the Day'} />
-        </div>
+        <Img src={ url } alt={'Nasa Photo of the Day'} />
     )
 }
 

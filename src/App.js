@@ -20,7 +20,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Astronomy Picture of the Day</h1>
       <Card props={apod}/>
     </div>
   );
