@@ -1,11 +1,10 @@
 import React from 'react';
 
 const Description = (props) => {
-    const { explanation, copy } = props
+    const { explanation } = props
     return (
-        <div className="description-container">
+        <div>
             <p>{ explanation }</p>
-            <span>{ copy }</span>
         </div>
     )
 }
