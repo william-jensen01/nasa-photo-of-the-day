@@ -12,13 +12,14 @@ function App() {
     axios
       .get("https://api.nasa.gov/planetary/apod?api_key=KfdxNrcSxqbCqd5cFklyV3awjQ3FDaE4rbNGeySy")
       .then((result) => {
+        console.log(result)
         setApod(result.data)
       })
       .catch((error) => {
         console.log(error)
       })
   }, [])
-  console.log(apod)
+  // console.log(apod)
   return (
     <div className="App">
       <h1>Astronomy Picture of the Day</h1>
