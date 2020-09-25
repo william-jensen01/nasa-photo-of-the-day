@@ -5,6 +5,7 @@ const Header = styled.div `
 h1 {
     margin: 5px;
     font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
 h2 {

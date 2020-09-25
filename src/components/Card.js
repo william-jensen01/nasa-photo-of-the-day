@@ -6,8 +6,7 @@ import styled from 'styled-components';
 
 const CardContainer = styled.div`
 border: solid 4px black;
-background-color: #ffe8ab;
-box-shadow: 5px 5px grey;
+background-color: #fff8e5;
 border-radius: 10px;
 padding: 10px;
 width: 70%;

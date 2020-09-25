@@ -4,11 +4,11 @@ import Card from './components/Card'
 import "./App.css";
 
 function App() {
-  const [apod, setApod] = useState([])
+  const [apod, setApod] = useState("")
 
   useEffect(() => {
     axios
-      .get("https://api.nasa.gov/planetary/apod?api_key=KfdxNrcSxqbCqd5cFklyV3awjQ3FDaE4rbNGeySy")
+      .get("https://api.nasa.gov/planetary/apod?api_key=NFLJgL8IGdxqdL87GMWz4TXTg8iqLWrRbKHzMue3")
       .then((result) => {
         setApod(result.data)
       })
